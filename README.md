@@ -83,7 +83,7 @@ used for quick iteration; set `MAX_REPORTS = None` (script: `--max-reports 0`) t
 
 ## Results
 
-_Add your numbers here after re-running the cleaned notebook (BLEU-1, ROUGE-L, sample outputs)._
+The chest X-ray report-generation model was evaluated on 50 reports, achieving a mean BLEU-1 score of 0.192697 and a mean ROUGE-L score of 0.219235. Sample outputs showed partial textual overlap with reference reports, although generated descriptions sometimes repeated generic findings about cardiac size and the mediastinum. These results provide a preliminary baseline for image-to-report generation; further evaluation is required to assess image-specific findings and clinical accuracy.
 
 ## Limitations
 
