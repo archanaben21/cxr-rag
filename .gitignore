@@ -1,0 +1,9 @@
+__pycache__/
+.ipynb_checkpoints/
+*.keras
+*.h5
+.env
+.venv/
+data/
+chest_xray_report_model/
+.DS_Store
