@@ -90,7 +90,7 @@ The chest X-ray report-generation model was evaluated on 50 reports, achieving a
 - Small decoder trained on a small subset; generated text is generic and can be repetitive.
 - BLEU-1 and ROUGE-L measure word overlap, not clinical accuracy.
 - If no CheXNet weights are found the encoder is randomly initialised (the notebook prints a warning).
-- The dataset anonymises some words as `XXXX`; these are kept as ordinary tokens.
+- Anonymised words such as XXXX are replaced with [REDACTED] during text preprocessing to reduce vocabulary noise while preserving the indication of missing information.
 
 ## Acknowledgements
 
